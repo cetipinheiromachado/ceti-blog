@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: 'Titulo, sans-serif';
+    src: url('fontes/MADE\ Tommy\ Soft\ Medium\ PERSONAL\ USE.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor01: white;
+    --cor02: #57F28A;
+    --cor03: #1F6B1A;
+    --cor04: #F2A007;
+    
+    --font01: 'Titulo, sans-serif';
+    --font02: "Roboto", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font02);
+}
+
+header {
+    background-color: var(--cor03);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: var(--cor02);
+    color: black;
+    font-weight: bold;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: var(--font01);
+}
+
+main {
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+article {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 40vw;
+    padding: 10px;
+    margin: auto;
+
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    padding: 10px 5px 5px 5px;
+}
+
+p#materias {
+    display: block;
+    text-align: center;
+    padding: 5px;
+}
+
+p#setinha {
+    padding-left: 10px;
+    padding-top: 25px;
+    color: var(--cor03);
+    font-weight: bold;
+    text-align: left;
+}
+
+footer {
+    background-color: var(--cor03);
+}
