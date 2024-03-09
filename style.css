@@ -51,7 +51,7 @@ h2 {
     text-align: center;
     padding: 10px;
     text-decoration: underline;
-    margin-bottom: 25px;
+    margin: 25px;
 }
 
 article > a {
@@ -59,7 +59,7 @@ article > a {
     border-radius: 20px;
     display: block;
     margin: auto;
-    padding: 20px 5px;
+    padding: 20px 20px;
     width: 50vw;
     transition-duration: 0.4s;
     text-decoration: none;
@@ -73,5 +73,5 @@ img {
 div#center {
     color: black;
     text-align: center;
-    padding: 5px;
+    padding-top: 10px;
 }
