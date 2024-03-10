@@ -42,7 +42,7 @@ header > nav {
     padding: 10px;
 }
 
-header a {
+header a#navegacao {
     font-weight: bold;
     border: 2px solid white;
     border-radius: 20px;
@@ -51,10 +51,20 @@ header a {
     text-decoration: none;
 }
 
-header a:hover {
+header a#navegacao:hover {
     background-color: white;
     color: var(--cor01);
     transition-duration: 0.4s;
+}
+
+#titulo {
+    color: white;
+    text-decoration: none;
+}
+
+#titulo:hover {
+    transition-duration: 0.4s;
+    color: var(--cor02);
 }
 
 abbr {
@@ -94,7 +104,6 @@ footer {
     padding: 10px;
     color: white;
     line-height: 1.3em;
-    font-size: 0.9em;
 }
 
 footer a {
