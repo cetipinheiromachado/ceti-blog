@@ -18,6 +18,9 @@
 
 body {
     font-family: var(--font01);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -58,18 +61,15 @@ abbr {
     text-decoration: none;
 }
 
-h2 {
-    text-align: center;
-    padding: 10px;
-    text-decoration: underline;
-    margin: 25px;
+main {
+    flex: 1 1 0;
 }
 
 article > a {
     border: 2px solid var(--cor01);
     border-radius: 20px;
     display: block;
-    margin: auto;
+    margin: 30px auto;
     padding: 20px 20px;
     width: 50vw;
     transition-duration: 0.4s;
@@ -85,4 +85,12 @@ div#center {
     color: black;
     text-align: center;
     padding-top: 10px;
+}
+
+footer {
+    display: block;
+    background-color: var(--cor01);
+    padding: 10px;
+    color: white;
+    text-align: center;
 }
