@@ -34,3 +34,10 @@ p {
     border: 10px;
     padding-left: 10px;
 }
+
+img {
+    border: 2px solid var(--cor01);
+    display: block;
+    margin: auto;
+    margin: 10px auto;
+}
