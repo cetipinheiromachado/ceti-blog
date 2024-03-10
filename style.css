@@ -92,5 +92,16 @@ footer {
     background-color: var(--cor01);
     padding: 10px;
     color: white;
-    text-align: center;
+    line-height: 1.3em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: var(--cor02);
+    text-shadow: 1px 1px 1px black;
+    transition-duration: 0.4s;
 }
