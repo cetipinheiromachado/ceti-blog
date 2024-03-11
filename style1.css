@@ -31,15 +31,26 @@ header {
     padding: 10px;
 }
 
+header img {
+    display: block;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+
 header h1 {
     font-family: var(--font02);
     font-weight: 400;
     font-style: normal;
+    display: block;
+    margin: auto;
+    text-align: center;
 }
 
 header > nav {
     text-align: right;
     padding: 10px;
+    margin-top: 5px;
 }
 
 header a#navegacao {
