@@ -21,6 +21,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 
 header {
@@ -29,6 +31,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 
 header img {
@@ -36,6 +40,7 @@ header img {
     text-align: left;
     padding: 0px;
     margin: 0px;
+    width: 50px;
 }
 
 header h1 {
@@ -115,6 +120,8 @@ footer {
     padding: 10px;
     color: white;
     line-height: 1.3em;
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 
 footer a {
