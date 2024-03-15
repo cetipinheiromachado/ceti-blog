@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
+::-webkit-scrollbar {
+    height: 0px;
+    width: 0px;
+}
+
 :root {
     --cor01: #5EAD2D;
     --cor02: #78BEE9;
@@ -122,6 +127,11 @@ footer {
     line-height: 1.3em;
     transition: width 1s, height 1s;
     transition-timing-function: ease;
+    font-size: 0.9em;
+}
+
+footer p {
+    display: block;
 }
 
 footer a {
